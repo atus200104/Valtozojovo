@@ -1,4 +1,4 @@
-Projektünket azaz weboldalunkat a valtozojovo.hu oldalon lehet elérni
+Projektünket azaz weboldalunkat a valtozojovo.hu vagy a https://valtozojovo.hu oldalon lehet elérni
 
 Adabázist a fájlok között lehet megtalálni valtozoj_donation.sql néven
 
