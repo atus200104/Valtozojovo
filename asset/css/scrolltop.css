@@ -1,0 +1,69 @@
+#back-to-top {
+  visibility: hidden;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  opacity: 0.8;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  box-shadow: 0px 2px 5px #666;
+  font-size: 20px;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+  z-index: 9999; /* Make sure the button is on top of everything */
+}
+
+
+#back-to-top:hover {
+  background-color: black;
+  opacity: 1;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.up {
+  padding-left: 13px;
+  font-size: 25px;
+  color: white;
+}
+
+
+.showbtn {
+  display: block;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.hidebtn {
+  display: block;
+  animation: fadeOut 0.5s ease-in-out;
+  animation-fill-mode: forwards; /* Keep the last state of the animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+}
